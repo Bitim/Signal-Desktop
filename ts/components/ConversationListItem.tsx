@@ -140,6 +140,7 @@ export class ConversationListItem extends React.Component<Props> {
     return (
       <div className="module-conversation-list-item__message">
         <div
+          dir="auto"
           className={classNames(
             'module-conversation-list-item__message__text',
             unreadCount > 0
